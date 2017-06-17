@@ -1,0 +1,3 @@
+#!/bin/sh
+gcc -w -c screen.c -o screen.o
+gcc -Wall screen.o editor.c termsize.c stdin.c position.c buffer.c cursor.c keyboard.c main.c -g -o EDIT
